@@ -7,7 +7,7 @@ In the code with hand-written points, the code starts by importing the necessary
 
 The main function of the code starts by checking the version of OpenCV being used. It then reads two images and the corresponding facial landmarks from text files. The code finds the convex hull of the facial landmarks in each image and calculates the Delaunay triangulation of the convex hull points. It then applies an affine transformation to each triangle in the Delaunay triangulation to warp the triangles from one image to the other. Finally, the code blends the two images together to create a seamless face swap and displays the result.
 
-In the code using Mediapipe face mesh detector, it's somehow the same, with difference being that the points are obtained using mediapipe face mesh detector, that gives landmarks as it's result.
+In the code using Mediapipe face mesh detector, it's somehow the same, with difference being that the points are obtained using mediapipe face mesh detector, that gives landmarks as it's result and the face is completely affined on the source image.
 
 with help from:
 1. https://learnopencv.com/face-swap-using-opencv-c-python/
