@@ -8,5 +8,7 @@ The code starts by importing the necessary libraries, including sys, numpy, and 
 The main function of the code starts by checking the version of OpenCV being used. It then reads two images and the corresponding facial landmarks from text files. The code finds the convex hull of the facial landmarks in each image and calculates the Delaunay triangulation of the convex hull points. It then applies an affine transformation to each triangle in the Delaunay triangulation to warp the triangles from one image to the other. Finally, the code blends the two images together to create a seamless face swap and displays the result.
 
 with help from:
-1. https://learnopencv.com/face-swap-using-opencv-c-python/ 
+1. https://learnopencv.com/face-swap-using-opencv-c-python/
+2. Mediapipe demos: face mesh
+3. https://youtu.be/gthvlYTAuqI?si=f3LfMqKlU75wamsg
 ...
