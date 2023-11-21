@@ -1,5 +1,5 @@
-# CV_Deepfake
-Deepfake. face swapping in python using opencv, mediapipe, and other tools.
+# CV_FaceSwapping
+face swapping in python using opencv, mediapipe, and other tools.
 
 This code is an implementation of face swapping using OpenCV in Python. It reads two images, detects facial landmarks in each image, and then swaps the faces in the images. The code uses the Delaunay triangulation algorithm to find corresponding triangles in the two images, and then applies an affine transformation to each triangle to warp the triangles from one image to the other. Finally, the code blends the two images together to create a seamless face swap.
 
